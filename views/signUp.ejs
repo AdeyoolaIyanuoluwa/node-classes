@@ -1,0 +1,16 @@
+<%- include("../views/partials/head.ejs")%> 
+    <center class="mt-5">
+        <form action="/signUp" method="POST">
+            <h1 class="text-danger fw-bold mt-4 mb-4">STUDENT PORTAL</h1>
+            <div class="container">
+                <input type="text" placeholder="Lastname" class="text-center ms-2 mt-2 w-50 p-2 rounded mb-4 shadow form-control" name="lastname">
+                <input type="text" placeholder="Firstname" class="text-center ms-2 mt-2 w-50 p-2 rounded mb-4 shadow form-control" name="firstname">
+                <input type="text" placeholder="Email" class="text-center ms-2 mt-2 w-50 p-2 rounded mb-4 shadow form-control" name="email">
+                <input type="password" placeholder="Password" class="text-center ms-2 mt-2 w-50 p-2 rounded mb-4 shadow form-control" name="password"> <br/>
+                <button class="btn btn-success p-2 w-25 fw-bold">SIGN UP</button>
+            </div>
+        </form>
+    </center>
+    <%- include("../views/partials/bottom.ejs")%>
+        
+
